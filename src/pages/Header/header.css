@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,800&display=swap");
+
+.nav-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fg {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.logo-img {
+  width: 50px;
+}
+
+.tag-line {
+  font-family: "Great Vibes", cursive;
+
+  font-weight: 300;
+}
+.nav-links {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+.nav-links:hover {
+  color: teal;
+}
+
+.header-btn-book:hover {
+  background-color: lawngreen;
+  color: white;
+}
+
+.header-text-deco {
+  text-decoration: none;
+}
+
+.link-tag {
+  text-decoration: none;
+  color: gray;
+  font-size: medium;
+  font-weight: bold;
+}
+.link-tag:hover {
+  color: teal;
+}

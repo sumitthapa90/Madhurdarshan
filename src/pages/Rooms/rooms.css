@@ -1,0 +1,42 @@
+.room-img {
+  object-fit: cover;
+
+  width: 100%;
+  height: 300px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.img-gallery {
+  margin: 100px auto 50px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+.img-gallery .room-img:hover {
+  transform: scale(0.9) rotate(-15deg);
+  border-radius: 20px;
+}
+.full-Img {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+}
+.full-Img .room-img {
+  width: 900px;
+}
+.full-Img span {
+  position: absolute;
+  top: 6%;
+  right: 10%;
+  color: white;
+  font-size: 2rem;
+}
